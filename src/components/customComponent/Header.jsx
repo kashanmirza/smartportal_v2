@@ -35,7 +35,6 @@ class Header extends Component {
     this.setState({ menuCollapse: !this.state.menuCollapse });
     this.setState({ logoTitle: !this.state.logoTitle });
     this.props.sidebarCtrlFunc();
-    // this.props.titleCtrlFunc();
   }
 
   logout() {

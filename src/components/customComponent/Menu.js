@@ -7,11 +7,10 @@ import SubMenu from '../../responseJson/subMenu';
 class Menu extends React.Component {
   constructor(props) {
     super(props);
-console.log("----------------|||||||||||||  ", props.titleCtrl)
       this.state = {
           sidebarCtrl: this.props.sidebarCtrl,
           titleCtrl: this.props.titleCtrl,
-          selectedMenu: "0"
+          selectedMenu: "1"
       }
   }
 

@@ -4,7 +4,7 @@ import Header from '../customComponent/Header.jsx';
 import Menu from '../customComponent/Menu';
 import Bradecums from '../customComponent/Bradecums.jsx';
 import Routes from "../../routes";
-import menu from "../../responseJson/menu"
+import menu from "../../constants/menu"
 import '../../assets/dependencies.jsx';
 
 
@@ -20,7 +20,7 @@ class Dashboard extends Component {
     this.state = {
       sidebarCtrl: 'dashboard_Sitebar',
       titleCtrl: 'titleShow',
-        match:props.match,
+      match:props.match,
       date: new Date().getDate(),
       month: new Date().getMonth(),
       year: new Date().getFullYear(),
@@ -34,7 +34,7 @@ class Dashboard extends Component {
   }
 
 
-  sidebarCtrlFunc(titleCtrl) {
+  sidebarCtrlFunc() {
     this.setState({
       sidebarCtrl: this.state.sidebarCtrl == 'dashboard_Sitebar' ? 'dashboard_Sitebar_Collaps' : 'dashboard_Sitebar',
       titleCtrl: this.state.titleCtrl == 'titleShow' ? 'titleHide' : 'titleShow',

@@ -16,8 +16,8 @@ class Routes extends Component{
         return(
             <div>
                 <Switch>
-                    <Route path={`${this.state.match.url}/OrganizationManagement`}  exact component={OrganizationManagement}/>
-                    <Route path={`${this.state.match.url}/Form`} exact component={Form}/>
+                    <Route path={`${this.state.match.url}/ServiceCategory`}  exact component={OrganizationManagement}/>
+                    <Route path={`${this.state.match.url}/Services`} exact component={Form}/>
                 </Switch>
             </div>
         )
