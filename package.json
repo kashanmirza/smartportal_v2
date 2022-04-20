@@ -7,7 +7,7 @@
     "axios": "^0.18.1",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.7.3",
-    "convict": "^5.0.0",
+    "convict": "^6.2.2",
     "font-awesome": "^4.7.0",
     "icheck": "^1.0.2",
     "jquery": "^3.3.1",
